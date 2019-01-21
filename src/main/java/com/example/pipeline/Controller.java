@@ -12,4 +12,9 @@ public class Controller {
     public String fistPage() {
         return "Hello Pipeline";
     }
+
+    @GetMapping("/testing")
+    public String makeTest() {
+        return "Testing page";
+    }
 }
